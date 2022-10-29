@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cb9d455-49b5-47ef-8ca4-3407b708d149" name="Default Changelist" comment="springboot属性配置使用">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-using/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-using/src/main/java/com/xiong/MyApplicationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-using/src/main/java/com/xiong/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-using/src/main/java/com/xiong/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-01-using/src/main/java/com/xiong/service/util/RiskAssessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-02-feature/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-02-feature/src/main/java/com/xiong/XApplicationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-02-feature/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-02-feature/src/main/resources/banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-00-helloworld/src/main/java/com/xiong/HelloWorldMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-00-helloworld/src/main/java/com/xiong/HelloWorldMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/active-tab-highlighter.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +98,7 @@
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -227,8 +210,16 @@
       <workItem from="1666795604218" duration="593000" />
       <workItem from="1666839711018" duration="14000" />
       <workItem from="1666942116549" duration="297000" />
-      <workItem from="1667048578428" duration="456000" />
+      <workItem from="1667048578428" duration="496000" />
     </task>
+    <task id="LOCAL-00001" summary="springboot属性配置使用">
+      <created>1667049049007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667049049007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
