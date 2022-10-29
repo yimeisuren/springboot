@@ -2,6 +2,8 @@ package com.xiong;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,13 +14,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 //@RequestMapping: 表示发送方满足该规则时, 调用该方法
 
+//@EnableAutoConfiguration: springboot基于添加的maven依赖(jar包), 来推断需要进行哪些配置
+//这里添加了spring-boot-starter-web, 所以会自动配置web服务相关的配置项
 
 /**
  * @author xiong
  * @date 2022/10/23
  */
 @RestController
-@EnableAutoConfiguration
+@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 public class HelloWorldMain {
 
     @RequestMapping("/")
@@ -27,11 +31,16 @@ public class HelloWorldMain {
     }
 
     /**
-     *
      * @param args 命令行参数
      */
     public static void main(String[] args) {
-        SpringApplication.run(HelloWorldMain.class, args);
+        ApplicationContext context = SpringApplication.run(HelloWorldMain.class, args);
+
+        String[] names = context.getBeanDefinitionNames();
+        for (String name : names) {
+            System.out.println(name);
+        }
+
     }
 }
 
