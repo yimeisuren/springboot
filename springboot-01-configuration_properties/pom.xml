@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springboot-01-using</artifactId>
+    <artifactId>springboot-01-configuration_properties</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

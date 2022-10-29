@@ -10,7 +10,7 @@
     <version>1.0</version>
     <modules>
         <module>springboot-00-helloworld</module>
-        <module>springboot-01-using</module>
+        <module>springboot-01-configuration_properties</module>
         <module>springboot-02-feature</module>
     </modules>
 

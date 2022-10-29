@@ -9,8 +9,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-00-helloworld" />
-        <module name="springboot-01-using" />
         <module name="springboot-02-feature" />
+        <module name="springboot-01-configuration_properties" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

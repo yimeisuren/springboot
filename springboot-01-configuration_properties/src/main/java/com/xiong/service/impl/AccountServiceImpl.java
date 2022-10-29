@@ -2,7 +2,6 @@ package com.xiong.service.impl;
 
 import com.xiong.service.AccountService;
 import com.xiong.service.util.RiskAssessor;
-import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
