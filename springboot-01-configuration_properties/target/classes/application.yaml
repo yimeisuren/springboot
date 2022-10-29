@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: using
+
+
+customer:
+  name: root
+
+peoplec:
+  name: root

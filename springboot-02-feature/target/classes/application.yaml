@@ -1,0 +1,8 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: feature
+#  main:
+#  # 设置懒加载, 默认为false, 可以使用@Lazy(false)来手动指定取消懒加载的Bean
+#    lazy-initialization: true

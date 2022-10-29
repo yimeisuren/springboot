@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "customer",
+      "type": "com.xiong.entities.Customer",
+      "sourceType": "com.xiong.entities.Customer"
+    },
+    {
+      "name": "people",
+      "type": "com.xiong.entities.People",
+      "sourceType": "com.xiong.entities.People"
+    },
+    {
+      "name": "peopleb",
+      "type": "com.xiong.entities.PeopleB",
+      "sourceType": "com.xiong.entities.PeopleB"
+    },
+    {
+      "name": "peoplec",
+      "type": "com.xiong.entities.PeopleC",
+      "sourceType": "com.xiong.entities.PeopleC"
+    },
+    {
+      "name": "person",
+      "type": "com.xiong.entities.Person",
+      "sourceType": "com.xiong.entities.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "customer.name",
+      "type": "java.lang.String",
+      "sourceType": "com.xiong.entities.Customer"
+    },
+    {
+      "name": "people.name",
+      "type": "java.lang.String",
+      "sourceType": "com.xiong.entities.People"
+    },
+    {
+      "name": "peopleb.name",
+      "type": "java.lang.String",
+      "sourceType": "com.xiong.entities.PeopleB"
+    },
+    {
+      "name": "peoplec.name",
+      "type": "java.lang.String",
+      "sourceType": "com.xiong.entities.PeopleC"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.String",
+      "sourceType": "com.xiong.entities.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.xiong.entities.Person"
+    }
+  ],
+  "hints": []
+}
